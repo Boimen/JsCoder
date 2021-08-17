@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="diseño.css" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="row" id="Header">
+      <div class="col-sm">
+        <nav class="navbar navbar-expand-lg navbar-light bg-green" >
+          <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto" id="Header__Navbar">
+            <li class="nav-item active">
+               <a class="nav-link" href="Index.html">Home<span class="sr-only"></span></a>
+            </li>
+           <li class="nav-item">
+            <a class="nav-link" href="Carrito.html">Carrito</a>
+            </li>
+            <li class="nav-item dropdown">
+
+             <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Catalogo
+             </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              
+
+                <a class="dropdown-item" href="Placas_RAM.html">RAMS</a>
+                <a class="dropdown-item" href="Placas_de_video.html">Placas de video</a>
+                <a class="dropdown-item" href="Motherboards.html">Motherboards</a>
+
+            </div>
+            </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="col-sm">
+  <a href="Index.html">
+    <img src="Imagenes/Logo.jpg">
+  </a>  
+    
+  </div>
+  <div class="col-sm">
+      <h1>Baumann Informatica</h1>
+  </div>
+  
+  <div class="col-sm" id="searchbar">
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+
+  </div>
+  
+</div>
+  </header>
+<section id="section">
+  
+<div class="col d-flex justify-content-center mb-4">
+<h2 class="h4 m-4" id="titulo">Productos</h2>
+</div>
+<div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-center">
+
+  <div class="col d-flex justify-content-center mb-4">
+    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+      <h5 class="card-title pt-2 text-center text-primary">Radeon gr122</h5>
+      <img src="Imagenes/video1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text text-white-50 description" id="Descr">Placa de video baja gamma</p>
+        <h5 class="text-primary">Precio: <span class="precio">$ 7800</span></h5>
+        <div class="d-grid gap-2">
+        <button  class="btn btn-primary button" id="botonplaca1">Añadir a Carrito</button>
+        <button  class="btn btn-primary button" id="detalle1" >Mas detalles</button>
+      </div>
+      </div>
+      <div id="detalleplaca1" class="detalleproducto">
+        <p class="card-text text-white-50 description"> 
+          Interfaz PCI-Express 3.0. <br>
+          Bus de memoria: 256bit. <br>
+          Cantidad de núcleos: 2304. <br>
+          Frecuencia boost del núcleo de 1366MHz. <br> 
+          Resolución máxima: 5120x2880. <br>
+          Compatible con directX y openGL.<br>
+          Requiere de 500W de alimentación.<br>
+          Permite la conexión de hasta 5 pantallas simultáneas.<br>
+          Formatos de conexión: DVI-D, 2 HDMI, 2 DisplayPort 1.4.<br>
+        </p>
+        </div>
+    </div>
+  </div>
+  <div class="col d-flex justify-content-center mb-4">
+    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+      <h5 class="card-title pt-2 text-center text-primary">Radeon gx2000</h5>
+      <img src="Imagenes/video2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text text-white-50 description">Placa de video media gamma</p>
+        <h5 class="text-primary">Precio: <span class="precio">$ 25000</span></h5>
+        <div class="d-grid gap-2">
+        <button  class="btn btn-primary button" id="botonplaca2">Añadir a Carrito</button>
+        <button  class="btn btn-primary button" id="detalle2" >Mas detalles</button>
+      </div>
+      </div>
+      <div id="detalleplaca2" class="detalleproducto">
+        <p class="card-text text-white-50 description"> 
+          Interfaz PCI-Express 3.0. <br>
+          Bus de memoria: 256bit.<br>
+          Cantidad de núcleos: 2048.<br>
+          Resolución máxima: 7680x4320.<br>
+          Compatible con directX y openGL.<br>
+          Requiere de 450W de alimentación.<br>
+          Con ventilador doble de alto desempeño.<br>
+          Especialmente diseñada para experiencias de juego alucinantes.<br>
+          Permite la conexión de hasta 5 pantallas simultáneas.<br>
+          Formatos de conexión: DL-DVI-D, HDMI, DisplayPort.<br>
+          Incluye accesorios.<br>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col d-flex justify-content-center mb-4">
+    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+      <h5 class="card-title pt-2 text-center text-primary">Nvidia gtx2000</h5>
+      <img src="Imagenes/video3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text text-white-50 description">Placa de video alta gamma</p>
+        <h5 class="text-primary">Precio: <span class="precio">$ 78000</span></h5>
+        <div class="d-grid gap-2">
+        <button  class="btn btn-primary button" id="botonplaca3">Añadir a Carrito</button>
+        <button  class="btn btn-primary button" id="detalle3" >Mas detalles</button>
+      </div>
+      </div>
+      <div id="detalleplaca3" class="detalleproducto">
+        <p class="card-text text-white-50 description"> 
+          Interfaz PCI-Express 4.0.<br>
+          Bus de memoria: 384bit.<br>
+          Cantidad de núcleos: 10496.<br>
+          Frecuencia boost del núcleo de 1800MHz.<br>
+          Resolución máxima: 7680x4320.<br>
+          Compatible con directX y openGL.<br>
+          Requiere de 750W de alimentación.<br>
+          Diseñada con IA: imágenes más nítidas y óptimas.<br>
+          Con tecnología ray tracing de alto nivel.<br>
+          Formatos de conexión: 3 DisplayPort 1.4a, HDMI 2.1.<br>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+   <footer id="Footer">
+        <div class="row">
+            <div class="col-sm">
+                <h1>Quienes somos</h1>
+                <p>Somos una empresa dedicada a la informatica desde 2015</p>
+            </div>
+            <div class="col-sm">
+                <h1>Redes Sociales</h1>
+                
+            </div>
+            <div class="col-sm">
+                <h1>Contacto</h1>
+            </div>
+
+        </div>
+
+
+    </footer>
+
+
+</div>
+
+
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+        <script src="jsPlacasvideo.js"></script>
+
+    
+</body>
+</html>

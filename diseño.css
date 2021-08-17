@@ -1,0 +1,104 @@
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-light .navbar-nav .active>.nav-link  {
+    color: red;
+   }
+
+
+
+#Header{
+    padding: 1em;
+    color: white;
+    font-family: 'Courier New';
+    border: solid 3px #7a33ff;
+    background-color:black;
+    text-align: middle;
+}
+#Header h1{
+    font-size: 30px;
+    margin-top: 13px;
+}
+
+#Header div{
+    justify-content: center;
+    margin-top: 5px;
+}
+
+#Header img{
+    width: 70px;
+    height: 70px;
+}
+#searchbar{
+    padding: 10px;
+}
+#Section1{
+    padding: 0.5em;
+    background-color: #afc36a;
+}
+#Section1 img {
+    width: 1000px;
+    height: 850px;
+    border: solid;
+}
+#Section2{
+    padding: 0.5em;
+    background-color: #afc36a;
+}
+#Footer{
+    padding:1em;
+    color: white;
+    background-color: black;
+    align-content: middle;
+}
+#Footer div{
+    text-align: center;
+}
+
+#Productos{
+    color:white;
+    padding: 2em;
+    margin: 20px;
+    font-family: 'Constantia' ;
+}
+
+.divclase{
+    padding: 2em;
+}
+#Carritorender{
+    padding: 2em;
+}
+#Tarjetacarrito{
+    padding: 2em;
+    color: white;
+    font-family: 'Constantia' ;
+}
+#section{
+    background-color: grey;
+    padding: 10px;
+    justify-items: middle;
+}
+#titulo{
+    font-family: 'Courier New';
+    font-size: 40px;
+    color: black;
+}
+#sectioncarrito{
+    background-color: grey;
+    padding: 5em;
+}
+
+#section div{
+   padding: 2em;
+
+}
+.detalleproducto{
+
+    display: none;
+}
+
+#Section2{
+    padding: 5em;
+}
+
